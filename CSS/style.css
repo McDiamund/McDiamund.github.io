@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.red {
+    color: red;
+}
+
 a {
     color: #e7c49b;
 }
