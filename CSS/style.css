@@ -84,6 +84,10 @@ h1, h2, h3 {
 
 /* Profile Card */
 
+.slist {
+    list-style: none;
+}
+
 #pcard {
     width: 75%;
     height: 70vh;
