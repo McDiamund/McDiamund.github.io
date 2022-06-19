@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CW 02 - CSS Part 1</title>
+    <style>
+        body {
+            margin:0;
+        }
+        #e2 {
+            background-color: rgb(223, 223, 223);
+            width: 70%;
+            margin-left: 15%;
+            text-align: center;
+            border-radius: 5px;
+            padding: 1%;
+        }
+
+        .e3t h1 {
+            color: red; 
+            margin-left: 2cm;
+        }
+
+        .e3t h2 {
+            color:red; 
+            margin-left: 4cm;
+        }
+
+        .e3t p {
+            text-indent:2cm;
+            color:darkred; 
+            margin-left: 6cm;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">CW 02 - CSS Part 1</h1>
+
+    <hr>
+
+    <h2 style="text-align: center;">Exercise 1</h2>
+
+    <div id="e2">
+        <p style="text-indent: 2cm; color: red;">
+            This paragraph has been formatted using the in-line style command.
+        </p>
+
+        <p>
+            This paragraph has not been formatted using the in-line style command.
+        </p>
+    </div>
+
+    <h2 style="text-align: center;">Exercise 2</h2>
+
+    <div id="e2">
+        <p>The embedded stylesheet in exercise 1 has an incomplete quotation mark in the font-family property for the body selector.
+            Additionally, in the properties for the selectors h1,h2,h3, the margin-left property is missing a dash and a semicolon. </p>
+    </div>
+
+    <h2 style="text-align: center;">Exercise 3</h2>
+
+    <h3 style="text-align: center;">Internal CSS</h3>
+
+    <div id="e2">
+        
+        <h1 style="color: red; margin-left: 2cm">h1 heading</h1>
+
+        <h2 style="color:red; margin-left: 4cm">h2 subheading</h2>
+
+        <p style="text-indent:2cm;color:darkred; margin-left: 6cm">Paragraph 1</p>
+
+        <p style="text-indent:2cm;color:darkred; margin-left: 6cm">Paragraph 2</p>
+
+        <h2 style="color:red; margin-left: 4cm">h2 subheading</h2>
+
+        <p style="text-indent:2cm; color:darkred; margin-left: 6cm">Paragraph 1</p>
+
+    </div>
+
+    <h3 style="text-align: center;">Embedded CSS Stylesheet</h3>
+
+    <div id="e2" class="e3t">
+        
+        <h1>h1 heading</h1>
+
+        <h2>h2 subheading</h2>
+
+        <p>Paragraph 1</p>
+
+        <p>Paragraph 2</p>
+
+        <h2>h2 subheading</h2>
+
+        <p>Paragraph 1</p>
+
+    </div>
+
+    <h3 style="text-align: center;">External CSS Stylesheet</h3>
+
+    <div id="e2" class="e3et">
+        
+        <h1>h1 heading</h1>
+
+        <h2>h2 subheading</h2>
+
+        <p>Paragraph 1</p>
+
+        <p>Paragraph 2</p>
+
+        <h2>h2 subheading</h2>
+
+        <p>Paragraph 1</p>
+
+    </div>
+
+    <h2 style="text-align: center;">Exercise 4</h2>
+
+    <h3 style="text-align: center;"> Inline CSS </h3>
+
+    <div style="padding-top: 2%; padding-bottom: 2%; text-align: center; width: 100%; background: chocolate;">
+        <h2 style="font-size: 14pt; font-family: Arial; font-weight: bold; color: moccasin">San Holo</h2>
+        <h1 style="display: inline-block; font-size: 14pt; font-family: Arial; font-weight: bold; color: moccasin">bb u ok?</h1>
+        <h2 style="display: inline-block;font-size: 12pt; font-family: Arial; color: khaki;"> - bb u ok?</h2>
+        <p style="font-size: 12pt; font-family: Arial; font-weight: bold; color:ivory">2021</p>
+        <p style="font-size: 14pt; font-family: 'Trebuchet MS'; font-weight: bold; color: gold;"> Baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            <span style="font-style: italic;">Baby, baby you okay?</span><br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?
+        </p>
+    </div>
+
+    <h3 style="text-align: center;"> External Stylesheet</h3>
+
+    <div id="song1">
+        <h2 class="artist">San Holo</h2>
+        <h1 class="title">bb u ok?</h1>
+        <h2 class="album"> - bb u ok?</h2>
+        <p  class="year">2021</p>
+        <p  class="lyrics"> Baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            Okay<br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?<br>
+            <span class="chorus">Baby, baby you okay?</span><br>
+            Baby, baby you okay?<br>
+            Baby, baby you okay?
+        </p>
+    </div>
+
+    <h1 style="text-align: center;">Exercise 6</h1>
+
+    <div style="padding-left: 3%; padding-top: 2%; padding-bottom: 2%; width: 100%; background: rgb(241, 241, 241)">
+    
+        <h3>HTML Tags Used For School Website</h1>
+
+        <p>DIV - contains sections to seperate information. You could use divs to seperate student information personal to each person and then another 
+            section for assignments, exams, etc.
+        </p>
+        <p>Table - can be used to lay out a schedule for each exam and times for each class, etc.</p>
+        <p>h1 - can be used to title pages and display important imformation to give context to the information. 
+            Could also be used to the display the students name and information and change depending on the account of course.
+        </p>
+        <p>h3 - can be used to give deeper compartmentlization of sections. for example classes, subjects, topics.</p>
+        <p>h2 - same as h3, use to compartmentlize imformation</p>
+        <p>p - the tag used to display large pieces of information, important</p>
+        <p>hr - can be used as a visual aid in seperating sections</p>
+        <p>br - used to control the size of information present in p contents, always needed</p>
+        <p>tr - makes rows for tables and can be seperated further to make sections for displayed data. For example class schedule, test times, etc.</p>
+        <p>th - allows visually a place to assign what to put in tables, can be used for things like subject or classes or anything you could put in a graph form.</p>
+        <p>td - the block or cell in a table that pieces of data actually goes like times, test, etc.</p>
+
+    </div>
+
+</body>
+</html>
